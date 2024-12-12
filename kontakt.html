@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="kontakt">
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Pocetna</a></li>
+        <li><a href="onama.html">O Nama</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="form-container">
+      <h2>Rezervacija</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="ime">Ime i Prezime:</label>
+          <input
+            type="text"
+            id="ime"
+            name="ime"
+            placeholder="Unesite ime i prezime"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="telefon">Broj Telefona:</label>
+          <input
+            type="tel"
+            id="telefon"
+            name="telefon"
+            placeholder="Unesite broj telefona"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="mesta">Broj Mesta za Rezervaciju:</label>
+          <input
+            type="number"
+            id="mesta"
+            name="mesta"
+            placeholder="Unesite broj mesta"
+            min="1"
+            required
+          />
+        </div>
+        <button type="submit" class="submit-button">Rezerviši</button>
+      </form>
+    </div>
+  </body>
+</html>
